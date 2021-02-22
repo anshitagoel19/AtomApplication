@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:text="Hi, What do your friends call you?"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:textSize="40dp"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_below="@id/textView"
+        android:id="@+id/enterbutton"
+        android:layout_alignRight="@id/PersonName"
+
+        />
+
+
+
+</RelativeLayout>
